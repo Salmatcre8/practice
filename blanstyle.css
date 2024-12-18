@@ -1,0 +1,66 @@
+*{
+   margin: 0; 
+   padding: 0;
+   box-sizing: border-box;
+   font-family: Helvetica, sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+
+}
+
+h1{
+    text-size-adjust: 100px;
+    margin-bottom: 10px;
+    max-width: 50%;
+}
+
+.navright{
+    display: flex;
+    gap: 32px;
+    align-items: center;
+}
+
+.links, a{
+    display: flex;
+    list-style: none;
+    gap: 24px;
+    text-decoration: none;
+    color: black;
+}
+section{
+   display: flex; 
+   justify-content: space-between;
+   align-items: ;
+   padding: 20px;
+   
+   
+}
+
+.blanklyvideo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttonnav{
+    background-color: transparent;
+    border-radius: 20px;
+    margin: 8px;
+    color: white;
+    border: none;
+    cursor: pointer ;
+    padding: 20px 20px;
+    gap: 12px;   
+    border-color: blue;
+
+}
+
+.herobutton{
+    padding: 0;
+    margin: 12px;
+}
